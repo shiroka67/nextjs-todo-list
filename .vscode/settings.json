@@ -1,0 +1,13 @@
+{
+	//default formatter
+	"editor.defaultFormatter": "biomejs.biome",
+
+	// enable format on save
+	"editor.formatOnSave": true,
+
+	// format fix on save
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	}
+}
