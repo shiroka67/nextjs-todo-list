@@ -24,7 +24,10 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"all": true
+			"recommended": true,
+			"correctness": {
+				"noUnusedImports": "error"
+			}
 		}
 	},
 	"javascript": {
